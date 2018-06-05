@@ -15,14 +15,14 @@ namespace BakeryProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Welcome to Amy's Bakery.";
+            ViewBag.Message = "Welcome to Amy and Solomon's Bakery.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Us";
 
             return View();
         }

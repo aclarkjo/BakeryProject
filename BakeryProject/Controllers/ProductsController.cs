@@ -13,6 +13,7 @@ namespace BakeryProject.Controllers
         public ActionResult Index()
         {
             BakeryEntities db = new BakeryEntities();
+
             return View(db.Products.ToList());
         }
       
