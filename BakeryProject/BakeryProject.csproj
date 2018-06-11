@@ -265,10 +265,10 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Shared\Results.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Login\" />
     <Folder Include="Views\Message\" />
     <Folder Include="Views\Sale\" />
   </ItemGroup>
