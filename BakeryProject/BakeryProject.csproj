@@ -158,6 +158,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NewProductController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\SaleController.cs" />
@@ -266,11 +267,13 @@
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Shared\Results.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Sale\Index.cshtml" />
+    <Content Include="Views\Sale\Receipt.cshtml" />
+    <Content Include="Views\NewProduct\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Message\" />
-    <Folder Include="Views\Sale\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
