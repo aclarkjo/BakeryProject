@@ -56,13 +56,13 @@ namespace BakeryProject.Controllers
 
             }
 
-            return View("Result", msg);
+            return View("Results", msg);
 
         }
 
 
 
-        public ActionResult Result(Message msg)
+        public ActionResult Results(Message msg)
 
         {
 

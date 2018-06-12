@@ -22,7 +22,7 @@ namespace BakeryProject.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact Us";
+            ViewBag.Message = "Contact Us at CakeWalkers@gmail.com";
 
             return View();
         }

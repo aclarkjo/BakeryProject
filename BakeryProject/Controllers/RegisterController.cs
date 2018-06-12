@@ -43,10 +43,10 @@ namespace Bakery.Project.Controllers
 
             }
 
-            return View("Result", msg);
+            return View("Results", msg);
             }
 
-        public ActionResult Result(Message msg)
+        public ActionResult Results(Message msg)
          {
            return View(msg);
 
